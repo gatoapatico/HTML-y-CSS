@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+    color: magenta;
+    font-size: 50px;
+}
+
+ol{
+    color: tomato;
+    list-style-type: decimal;
+    margin-left: 50px;
+}
+
+ul{
+    color: deeppink;
+    list-style-type: circle;
+    margin-left: 100px;
+}
+
+ol li:hover{
+    color: white;
+}
+
+ol li:nth-child(odd){
+    color: purple;
+}
+
+ul li:first-child{
+    font-weight: bold;
+    color: green;
+}
+
+ul li:active{
+    background-color: black;
+}
