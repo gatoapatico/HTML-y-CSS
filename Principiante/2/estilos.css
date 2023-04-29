@@ -1,0 +1,12 @@
+body{
+    background-color:#a52a2a;
+    color: aqua;
+}
+h1{
+    font-size: 36px;
+    color: blue;
+}
+p{
+    font-size: 50px;
+    line-height: 1.5;
+}
