@@ -1,0 +1,26 @@
+input{
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+input:focus{
+    /*border-color: #3b99fc;*/
+    box-shadow: 0 0 10px #3b99fc;
+}
+
+input[type="submit"]{
+    background-color: #3b99fc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #3282d8;
+}
+
