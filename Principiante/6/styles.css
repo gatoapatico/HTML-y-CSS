@@ -1,0 +1,20 @@
+table{
+    background-color: lightgray;
+    border: 2px solid black;
+}
+
+table:active{
+    background-color: crimson;
+}
+
+td{
+    font-size: 24px;
+    background-color: white;
+    width: 100px;
+    text-align: center;
+    transition: background-color 0.2s ease-in-out;
+}
+
+td:hover{
+    background-color: aqua;
+}
