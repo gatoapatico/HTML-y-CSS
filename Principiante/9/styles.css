@@ -1,0 +1,25 @@
+ul{
+    width: 300px;
+}
+
+ul li{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+ul li:nth-child(1){ background-color: red; }
+ul li:nth-child(2){ background-color: green; }
+ul li:nth-child(3){ background-color: blue; }
+ul li:nth-child(4){ background-color: magenta; }
+ul li:nth-child(5){ background-color: yellow; }
