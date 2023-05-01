@@ -1,0 +1,35 @@
+form{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="text"],input[type="password"]{
+    display: block;
+    border-radius: 5px;
+    text-indent: 30px;
+}
+
+input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(69, 69, 238);
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    transition: border-radius 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover{
+    border-radius: 5px;
+}
+
+input{
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+input:focus{
+    box-shadow: 0 0 10px blue;
+}
