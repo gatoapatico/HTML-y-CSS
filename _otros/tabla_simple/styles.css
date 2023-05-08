@@ -1,0 +1,21 @@
+table{
+    border: 1px solid black;
+    font-size: 25px;
+}
+
+th{
+    padding: 10px;
+    background-color: rgb(168, 168, 168);
+}
+
+td{
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: font-size 0.3s ease-in-out;
+}
+
+td:hover{
+    text-decoration:underline;
+    font-size: 27px;
+}
