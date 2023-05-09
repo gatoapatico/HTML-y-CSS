@@ -1,0 +1,31 @@
+header div{
+    display: inline-block;
+    font-size: 25px;
+}
+
+footer{
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+footer:hover{
+    background-color: rgb(199, 199, 199);
+}
+
+footer div{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: 18.4%;
+}
+
+footer div a{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease-in-out;
+}
+
+footer div a:hover{
+    text-decoration: underline;
+}
