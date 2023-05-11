@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="JS 1">
+        <title>Mi pimer script en JavaScript</title>
+    </head>
+    <body>
+        <h1>Este es mi primer script en Javascript</h1>
+        <h1>Este es mi segundo script en Javascript</h1>
+        <button onclick="cambiarTitulo()">Haz clic aquí para cambiar el título</button>
+    </body>
+    <script>
+        var tituloTemp1;
+        var tituloTemp2 = "El título ha sido cambiado";
+        function cambiarTitulo(){
+            tituloTemp1 = document.getElementsByTagName("h1")[0].innerHTML; 
+            document.getElementsByTagName("h1")[0].innerHTML = tituloTemp2;
+            tituloTemp2 = tituloTemp1;
+        }
+    </script>
+</html>
