@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Formulario con Validaciones">
+        <title>Formulario con Validaciones</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" required>
+            <br>
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" pattern=".{8,}">
+            <br>
+            <label for="confirm_password">Confirmación de contraseña</label>
+            <input type="password" id="confirm_password" name="confirm_password" pattern=".{8,}">
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
