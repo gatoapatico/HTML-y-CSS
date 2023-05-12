@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validarContraseña(password,password_Validation){
+            
+            if(password == password_Validation){
+                alert("Las contraseñas son iguales");
+            }
+            else{
+                alert("Las constraseñas no son iguales")
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <label for="password"></label>
+        <input type="password" id="password">
+        <br>
+        <br>
+        <label for="password_Validation"></label>
+        <input type="password" id="password_Validation">
+        <br>
+        <br>
+        <button type="submit" onclick="validarContraseña(password.value,password_Validation.value)">Validar</button>
+    </form>
+</body>
+</html>
