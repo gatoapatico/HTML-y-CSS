@@ -1,0 +1,63 @@
+html{
+    height: 100%;
+}
+
+/*COLOR DE FONDO DEGRADADO*/
+body{
+    background: linear-gradient(to bottom left, rgb(255, 0, 149),rgb(22, 199, 253));
+    overflow: hidden;
+}
+
+/*CUADRADOS Y ANIMACIÓN DE OPACIDAD*/
+.cuadrado{
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0.1;
+    width: 500px;
+    height: 500px;
+    rotate: -30deg;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{ opacity: 0; }
+    50%{ opacity: 0.1;}
+    100%{ opacity: 0; }
+}
+
+.cuadrado-1{
+    background-color: white;
+    top: -100px;
+    left: -300px;
+}
+
+.cuadrado-2{
+    background-color: white;
+    top: 700px;
+    left: -50px;
+}
+
+.cuadrado-3{
+    background-color: black;
+    top: 80px;
+    right: -450px;
+}
+
+.form-container{
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+form h1{
+    font-family: 'Konkhmer Sleokchher', cursive;
+    text-align: center;
+    /*border: 1px solid black;*/
+    padding: 20px;
+}
+
